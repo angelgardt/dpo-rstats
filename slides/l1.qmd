@@ -1,0 +1,37 @@
+---
+title: "Основы R. Типы и структуры данных"
+subtitle: "Статистика и анализ данных в R: методы и приложения в психологии и социальных науках"
+author: "А. Н. Ангельгардт"
+institute: "НИУ ВШЭ"
+format:
+  beamer:
+    pdf-engine: xelatex
+    include-in-header: 
+      text: |
+        \usepackage[english,russian]{babel}
+        \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}
+        \setmainfont{Arial}
+        \setsansfont{Arial}
+output-file: "l1"
+execute: 
+  echo: true
+  warning: true
+---
+
+# Quarto
+
+Русский текст.
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r, echo=TRUE}
+1 + 1
+```
+
+$$
+x \in \mathbb N
+$$
+
+# Slide 2
+
+# Slide 3
