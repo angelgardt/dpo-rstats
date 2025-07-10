@@ -12,7 +12,7 @@ format:
         \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}
         \setmainfont{Arial}
         \setsansfont{Arial}
-output-file: "l1"
+output-file: "s1"
 execute: 
   echo: true
   warning: true
