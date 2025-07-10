@@ -16,12 +16,31 @@ book:
     - index.qmd
     - part: part-r.qmd
       chapters:
-        - intro.qmd
-        - summary.qmd
+        - l1-rbasics.qmd
+        - l2-tidyvis.qmd
     - part: part-math.qmd
+      chapters:
+        - l3-math.qmd
+        - l4-measurement.qmd
     - part: part-stats.qmd
+      chapters:
+        - l5-statintro.qmd
+        - l6-estimating.qmd
+        - l7-nhst.qmd
     - part: part-andan.qmd
+      chapters:
+        - l8-desccor.qmd
+        - l9-lm.qmd
+        - l10-anova.qmd
+        - l11-glm.qmd
+        - l12-gam.qmd
+        - l13-glmm.qmd
+        - l14-cluster.qmd
+        - l15-efa.qmd
+        - l16-sem.qmd
     - part: part-rmdgit.qmd
+      chapters:
+        - l17-rmdgit.qmd
     - references.qmd
 
 bibliography: references.bib
