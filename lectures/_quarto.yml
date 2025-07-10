@@ -2,19 +2,26 @@ project:
   type: book
   output-dir: docs
 
+metadata-files:
+  - _metadata.yml
+
 book:
   output-file: "lecs"
   title: "Статистика и анализ данных в R: методы и приложения в психологии и социальных науках"
   subtitle: "Конспекты лекций"
   author: "А. Н. Ангельгардт"
   date: today
-  date-format: "DD MMMM YYYY"
+  date-format: "2025/2026"
   chapters:
     - index.qmd
     - part: part-r.qmd
       chapters:
         - intro.qmd
         - summary.qmd
+    - part: part-math.qmd
+    - part: part-stats.qmd
+    - part: part-andan.qmd
+    - part: part-rmdgit.qmd
     - references.qmd
 
 bibliography: references.bib
